@@ -1,0 +1,10 @@
+.footer__component {
+    display: flex;
+    justify-content: center;
+    grid-column: 6/8;
+    margin-top: 10px;
+    a {
+        color: teal;
+        margin-left: 5px;
+    }
+}

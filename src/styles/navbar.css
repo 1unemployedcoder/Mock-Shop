@@ -1,0 +1,19 @@
+.navbar {
+    display: grid;
+    height: 45px;
+    align-items: center;
+    margin-left: auto;
+    grid-column: 1/13;
+    grid-row: 1/13;
+    background: lightgray;
+    width: 100%;
+    justify-content: center;
+}
+
+.navbar__items {
+    display: flex;
+    flex-direction: row;
+    div {
+        margin-right: 20px;
+    }
+}

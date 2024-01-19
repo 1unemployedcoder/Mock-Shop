@@ -1,0 +1,12 @@
+.title {
+    text-align: center;
+}
+
+.loader__posts {
+    display: grid;
+    grid-column: 6 / span 1;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 50px;
+    margin-left: 120px;
+}

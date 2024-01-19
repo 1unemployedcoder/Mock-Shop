@@ -1,0 +1,9 @@
+import './cart.css';
+import './footer.css';
+import './goods.css';
+import './main.css';
+import './goodBar.css';
+import './pagination.css';
+import './settingsApp.css';
+import './utils.css';
+import './navbar.css'

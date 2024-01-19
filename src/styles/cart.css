@@ -1,0 +1,33 @@
+.post__cart {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    width: 600px;
+    border: 2px solid teal;
+    border-radius: 20px;
+    img {
+        border-radius: 40px;
+        height: 75px;
+        width: 75px;
+    }
+    div {
+        margin: 2px;
+    }
+}
+
+.CartList {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.CartList__items {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    align-items: center;
+}

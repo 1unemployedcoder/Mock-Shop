@@ -1,0 +1,41 @@
+.GoodsApp {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    flex-direction: column;
+}
+
+.goods__container {
+    display: grid;
+    grid-column: 4/10;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.good {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid teal;
+    border-radius: 25px;
+    -webkit-box-shadow: 3px 3px 21px -4px rgba(0,0,0,0.19);
+    -moz-box-shadow: 3px 3px 21px -4px rgba(0,0,0,0.19);
+    box-shadow: 3px 3px 21px -4px rgba(0,0,0,0.29);
+    img {
+        border-radius: 40px;
+        height: 150px;
+        width: 150px;
+    }
+}
+
+.not_goods {
+    display: grid;
+    grid-column: 6 / span 1;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 50px;
+    margin-left: 120px;
+}

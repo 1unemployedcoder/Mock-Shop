@@ -1,0 +1,28 @@
+.cartCreateSearchBar {
+    display: grid;
+    height: 45px;
+    align-items: center;
+    margin-left: auto;
+    grid-column: 1/13;
+    grid-row: 1/13;
+    background: white;
+    width: 100%;
+}
+
+.items {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 15px;
+    strong {
+        margin-left: auto;
+        margin-right: 15px;
+    }
+    button {
+        margin-right: 15px;
+    }
+}
+
+.search {
+    margin-left: 520px;
+}
