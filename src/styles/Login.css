@@ -1,0 +1,12 @@
+.login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 2px solid teal;
+    padding: 15px 25px 10px 25px;
+    h1 {
+        color: teal;
+    }
+}

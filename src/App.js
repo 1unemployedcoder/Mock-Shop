@@ -1,18 +1,34 @@
-import React from "react";
-import Goods from "./pages/Goods";
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import React, {useEffect, useState} from "react";
+import {BrowserRouter as Router} from "react-router-dom";
 import Navbar from "./components/UI/navbar/Navbar";
 import Footer from "./components/UI/footer/Footer";
+import AppRouter from "./components/AppRouter";
+import {AuthContext} from "./context";
 
 function App() {
+    const [isAuth, setIsAuth] = useState(false)
+    const [isLoading, setIsLoading] = useState(true)
+
+    useEffect(() => {
+        if (localStorage.getItem('auth')) {
+            setIsAuth(true)
+        }
+        setIsLoading(false)
+    }, []);
+
     return (
-        <Router>
-            <Navbar />
-            <Routes>
-                <Route path={'/goods'} element={<Goods/>} />
-            </Routes>
-            <Footer/>
-        </Router>
+        <AuthContext.Provider value={{
+            isAuth,
+            setIsAuth,
+            isLoading
+        }}>
+            <Router>
+                <Navbar/>
+                <AppRouter/>
+                <hr className='addiction__footer'/>
+                <Footer/>
+            </Router>
+        </AuthContext.Provider>
     );
 }
 

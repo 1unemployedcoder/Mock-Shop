@@ -13,3 +13,11 @@
     width: 400px;
 }
 
+.filters {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    grid-column: 3/3;
+    justify-content: flex-start;
+}
+

@@ -1,0 +1,41 @@
+.good__pageContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    border: 2px solid teal;
+    margin-top: 20px;
+    padding: 20px 40px 20px 40px;
+    border-radius: 30px;
+    img {
+        width: 400px;
+        height: 400px;
+        border-radius: 80px;
+        margin-bottom: 20px;
+    }
+}
+
+.good__about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.good__comments {
+    margin-top: 10px;
+    border: 2px solid teal;
+    padding: 10px;
+    border-radius: 10px;
+    div {
+        strong {
+            margin: 5px;
+        }
+        margin: 5px;
+    }
+}
+
+.separator__comments {
+    margin: 10px;
+}

@@ -3,7 +3,7 @@ import MySelect from "../UI/select/MySelect";
 
 const GoodsFilter = ({selectedSort, sortGoods, limit, setLimit}) => {
     return (
-        <div style={{margin: '20px'}}>
+        <div className='filters'>
             <div className='app__filter'>
                 <MySelect
                     value={selectedSort}

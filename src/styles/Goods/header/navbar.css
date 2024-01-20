@@ -11,9 +11,16 @@
 }
 
 .navbar__items {
+    align-items: center;
     display: flex;
     flex-direction: row;
     div {
         margin-right: 20px;
+        a:visited {
+            color: teal;
+        }
+        a:active {
+            color: teal;
+        }
     }
 }
