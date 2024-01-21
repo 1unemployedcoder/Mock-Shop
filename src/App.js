@@ -8,6 +8,9 @@ import {AuthContext} from "./context";
 function App() {
     const [isAuth, setIsAuth] = useState(false)
     const [isLoading, setIsLoading] = useState(true)
+    const [order, setOrder] = useState([])
+    const [totalQuant, setTotalQuant] = useState(0)
+    const [totalPrice, setTotalPrice] = useState(0)
 
     useEffect(() => {
         if (localStorage.getItem('auth')) {
@@ -20,7 +23,13 @@ function App() {
         <AuthContext.Provider value={{
             isAuth,
             setIsAuth,
-            isLoading
+            isLoading,
+            order,
+            setOrder,
+            totalQuant,
+            setTotalQuant,
+            totalPrice,
+            setTotalPrice
         }}>
             <Router>
                 <Navbar/>

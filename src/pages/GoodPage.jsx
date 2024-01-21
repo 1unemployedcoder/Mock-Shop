@@ -1,11 +1,13 @@
 import React, {useEffect, useState} from 'react';
-import {useParams} from "react-router-dom";
+import {useNavigate, useParams} from "react-router-dom";
 import {useFetching} from "../hooks/useFetching";
 import {PostService} from "../API/PostService";
 import MyLoader from "../components/UI/loader/MyLoader";
+import MyButton from "../components/UI/button/MyButton";
 
 const GoodPage = () => {
     const params = useParams()
+    const navigate = useNavigate()
     const [good, setGood] = useState({})
     const [comments, setComments] = useState([])
     const [fetchingGoods, isLoadingGood, errorGood] = useFetching(async () => {
@@ -25,7 +27,10 @@ const GoodPage = () => {
 
 
     return (
-        <div>
+        <div className='goods__page'>
+            <div className='back__Btn'>
+                <MyButton onClick={() => navigate('/goods/')}>Назад</MyButton>
+            </div>
             <div className='good__pageContainer'>
                 {isLoadingGood
                     ? <MyLoader />

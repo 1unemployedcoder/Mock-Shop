@@ -7,3 +7,8 @@
     border: 1px solid teal;
     margin: 2px 0;
 }
+
+.myBtn:hover {
+    color: red;
+    border: 1px solid red;
+}

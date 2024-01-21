@@ -4,7 +4,7 @@ import MyButton from "../button/MyButton";
 import {AuthContext} from "../../../context";
 
 const Navbar = () => {
-    const {setIsAuth} = useContext(AuthContext)
+    const {isAuth, setIsAuth} = useContext(AuthContext)
 
     const logOut = () => {
         setIsAuth(false)
@@ -20,9 +20,7 @@ const Navbar = () => {
                 <div>
                     <Link to={'/about'}>О проекте</Link>
                 </div>
-                <div>
-                    <MyButton onClick={logOut}>Выйти</MyButton>
-                </div>
+                {isAuth && <MyButton onClick={logOut}>Выйти</MyButton>}
             </div>
         </div>
     );

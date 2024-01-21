@@ -1,5 +1,12 @@
+.goods__page {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    flex-direction: column;
+}
+
 .good__pageContainer {
     display: flex;
+    grid-column: 4/10;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -34,6 +41,14 @@
         }
         margin: 5px;
     }
+}
+
+.back__Btn {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    grid-column: 3/3;
+    justify-content: flex-start;
 }
 
 .separator__comments {
