@@ -7,15 +7,15 @@ import Login from "../pages/Login";
 import Order from "../pages/Order";
 
 export const privateRoutes = [
-    {path: '/Mock-Shop/goods', element: <Goods/>, caseSensitive: true},
-    {path: '/Mock-Shop/goods/:id', element: <GoodPage/>, caseSensitive: true},
-    {path: '/Mock-Shop/about', element: <About/>, caseSensitive: true},
-    {path: '/Mock-Shop/order', element: <Order/>, caseSensitive: true},
-    {path: '/Mock-Shop/*', element: <Navigate to={'/Mock-Shop/goods'}/>, caseSensitive: true},
+    {path: '/goods', element: <Goods/>, caseSensitive: true},
+    {path: '/goods/:id', element: <GoodPage/>, caseSensitive: true},
+    {path: '/about', element: <About/>, caseSensitive: true},
+    {path: '/order', element: <Order/>, caseSensitive: true},
+    {path: '/*', element: <Navigate to={'/goods'}/>, caseSensitive: true},
 ]
 
 export const publicRoutes = [
-    {path: '/Mock-Shop/login', element: <Login/>, caseSensitive: true},
-    {path: '/Mock-Shop/about', element: <About/>, caseSensitive: true},
-    {path: '/Mock-Shop/*', element: <Navigate to={'/Mock-Shop/login'}/>, caseSensitive: true},
+    {path: '/login', element: <Login/>, caseSensitive: true},
+    {path: '/about', element: <About/>, caseSensitive: true},
+    {path: '/*', element: <Navigate to={'/login'}/>, caseSensitive: true},
 ]
