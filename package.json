@@ -13,7 +13,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://1unemployedcoder.github.io/mockshop",
+  "homepage": "https://1unemployedcoder.github.io/Mock-Shop/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
