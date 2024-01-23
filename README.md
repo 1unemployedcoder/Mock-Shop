@@ -1,6 +1,6 @@
 ## General info
 This project is simple one-page Mock Shop.
-link: https://1unemployedcoder.github.io/Mock-Shop
+link: https://1unemployedcoder.github.io/Mock-Shop (for best experience i recommended try my project on your local server instead github pages)
 	
 ## Technologies
 Project is created with:
@@ -11,4 +11,4 @@ Project is created with:
 * JSONplaceholder
 
 # How it works?
-API PostService has links to a remote server, which is used as a stub for the backend. You can familiarize yourself with the project.
+API PostService has links to a remote server, which is used as a stub for the backend. You can familiarize yourself with the project. 
