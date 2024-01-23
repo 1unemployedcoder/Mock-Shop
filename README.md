@@ -1,6 +1,6 @@
 ## General info
 This project is simple one-page Mock Shop.
-link: 
+link: https://1unemployedcoder.github.io/Mock-Shop
 	
 ## Technologies
 Project is created with:
