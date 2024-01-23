@@ -22,5 +22,11 @@
         a:active {
             color: teal;
         }
+        a:hover {
+            color: red;
+        }
+        a {
+            text-decoration: none;
+        }
     }
 }
