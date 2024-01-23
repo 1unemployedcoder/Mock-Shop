@@ -31,7 +31,7 @@ function App() {
             totalPrice,
             setTotalPrice
         }}>
-            <Router basename='/Mock-Shop'>
+            <Router>
                 <Navbar/>
                 <AppRouter/>
                 <hr className='addiction__footer'/>
