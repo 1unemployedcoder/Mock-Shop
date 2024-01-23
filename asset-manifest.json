@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Mock-Shop/static/css/main.38ff00dd.css",
-    "main.js": "/Mock-Shop/static/js/main.b9b01462.js",
+    "main.js": "/Mock-Shop/static/js/main.9aadfef5.js",
     "index.html": "/Mock-Shop/index.html",
     "main.38ff00dd.css.map": "/Mock-Shop/static/css/main.38ff00dd.css.map",
-    "main.b9b01462.js.map": "/Mock-Shop/static/js/main.b9b01462.js.map"
+    "main.9aadfef5.js.map": "/Mock-Shop/static/js/main.9aadfef5.js.map"
   },
   "entrypoints": [
     "static/css/main.38ff00dd.css",
-    "static/js/main.b9b01462.js"
+    "static/js/main.9aadfef5.js"
   ]
 }
