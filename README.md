@@ -1,6 +1,6 @@
 ## General info
 This project is simple one-page Mock Shop.
-link: https://1unemployedcoder.github.io/Mock-Shop (for best experience i recommended try my project on your local server instead github pages)
+link: https://1unemployedcoder.github.io/Mock-Shop (for best experience without bugs i recommended try my project on your local server instead github pages)
 	
 ## Technologies
 Project is created with:
