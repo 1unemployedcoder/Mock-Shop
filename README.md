@@ -1,7 +1,9 @@
 ## General info
 This project is simple one-page Mock Shop.
-link: https://1unemployedcoder.github.io/Mock-Shop (for best experience without bugs i recommended try my project on your local server instead github pages)
-	
+
+Link: [Mock Shop](https://1unemployedcoder.github.io/Mock-Shop)
+
+The Mock Shop is designed to showcase...	
 ## Technologies
 Project is created with:
 * React
