@@ -10,3 +10,9 @@
     margin-top: 50px;
     margin-left: 120px;
 }
+
+@media screen and (min-width: 390px) and (max-width: 1280px) {
+    .loader__posts {
+        margin: auto;
+    }
+}

@@ -2,7 +2,8 @@
     display: grid;
     height: 45px;
     align-items: center;
-    grid-column: 4/4;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
     background: transparent;
 }
 
@@ -21,3 +22,15 @@
     justify-content: flex-start;
 }
 
+@media screen and (min-width: 390px) and (max-width: 1280px)  {
+    .app__filter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .filters {
+        grid-column: 1/13;
+        margin-top: 80px;
+        margin-bottom: 0;
+    }
+}

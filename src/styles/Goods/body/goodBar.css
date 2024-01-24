@@ -25,3 +25,16 @@
 .search {
     display: grid;
 }
+
+@media screen and (min-width: 390px) and (max-width: 1280px)  {
+    .items {
+        display: flex;
+        flex-direction: column;
+        strong {
+            margin: 0;
+        }
+        button {
+            margin: 0;
+        }
+    }
+}

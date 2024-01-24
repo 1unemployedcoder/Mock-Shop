@@ -54,3 +54,35 @@
 .separator__comments {
     margin: 10px;
 }
+
+@media screen and (min-width: 390px) and (max-width: 1280px)  {
+    .back__Btn {
+        grid-column: 6/8;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .good__pageContainer {
+        width: 400px;
+        padding: 20px;
+        img {
+            width: 50%;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+    }
+    .good__comments {
+        max-width: 80%;
+        margin-top: 10px;
+        border: 2px solid teal;
+        padding: 10px;
+        border-radius: 10px;
+        div {
+            strong {
+                margin: 5px;
+            }
+            margin: 5px;
+        }
+    }
+}
