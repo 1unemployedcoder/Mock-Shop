@@ -1,7 +1,7 @@
 ## General info
 This project is simple one-page Mock Shop.
 
-Link: [Mock Shop](https://1unemployedcoder.github.io/Mock-Shop) (only PC, no mobile ver)
+Link: [Mock Shop](https://1unemployedcoder.github.io/Mock-Shop) (PC recommended)
 
 The Mock Shop is designed to showcase...	
 ## Technologies
